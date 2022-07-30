@@ -1,15 +1,129 @@
-/*general settings*/
+/* general settings */
 
 body {
     margin:8;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-/*Header*/
+/* Header */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
 header img {
     width : 350px;
     height : 105px;
     object-fit: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+  
+}
+
+nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+/* Main */
+
+/* Banner */
+
+#banner {
+    height: 450px;
+    position: relative;
+}
+
+#banner img {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#banner-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-content img {
+    width:200px;
+}
+
+#banner-content h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+/* main-content */
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills-container {
+    display:flex;
+    justify-content: space-around;
+    width: 80%;
+    
+}
+
+#intro {
+    width: 75%;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 24px;
+    color: grey
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.skill img {
+    width: 64px;
+}
+
+.skill h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.skill p {
+    font-size: small;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Review */
+
+figure {
+    color: grey;
+    text-align: center;
+}
+
+figcaption {
+    font-weight: 300;
 }

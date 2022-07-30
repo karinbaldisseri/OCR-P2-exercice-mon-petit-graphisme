@@ -13,7 +13,7 @@
     <!--links Google Fonts Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <!--Link fichier css/normalize.css
     <link rel="stylesheet" href="css/normalize.css"> -->
     <!--link fichier css/styles.css-->
@@ -24,20 +24,61 @@
 <body>
     <header>
         <div>
-            <img src="images/logo.png"/>
+            <img src="images/logo.png" alt="Logo MPG"/>
         </div>
-        <ul>
-            <li>Accueil</li>
-            <li>Contact</li>
-        </ul>
+        <nav>
+            <ul>
+                <li>Accueil</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <section>
+            <div id="banner">
+                <img src="images/backgroung_image.jpg" alt="photo d'une personne qui travaille à un bureau"/>
+            </div>
+            <div id="banner-content">
+                <img src="images/logo_long.png" alt="Logo MPG"/>
+                <h1>Agence de graphisme</h1>
+            </div>
+        </section>
+        <section id="main-content">
+            <p id="intro">Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs.</p>
+            <div id="skills-container">
+                <article class="skill">
+                    <img src="images/graphic-design.png" alt="icône graphic-design"/>
+                    <h2>Graphisme</h2>
+                    <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visules dont vous serez fiers.</p>
+                </article>
+                <article class="skill">
+                    <img src="images/strategie.png" alt="icône stratégie" />
+                    <h2>Stratégie</h2>
+                    <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
+                </article>
+                <article class="skill">
+                    <img src="images/illustrations.png" alt="icône illustrations" />
+                    <h2>Illustrations</h2>
+                    <p>Nos graphistes vous proposerons des illustrations 100% originales.</p>
+                </article>
+            </div>
 
+            <figure>
+                <blockquote>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l'écoute des besoins et m'ont permis de renouveler complètement la carte de mon restaurant."</blockquote>
+                <figcaption>Amandine, restauratrice</figcaption>
+            </figure>
+
+        </section>
     </main>
 
     <footer>
-
+        <p>Mon petit graphisme - Agence de graphisme basée à Paris</p>
+        <div id="social media">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
     </footer>
 
 </body>
