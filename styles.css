@@ -1,0 +1,15 @@
+/*general settings*/
+
+body {
+    margin:8;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+header img {
+    width : 350px;
+    height : 105px;
+    object-fit: cover;
+}
