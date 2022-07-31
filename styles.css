@@ -12,8 +12,12 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    
 }
+
+header div {
+    height:105px;
+}
+
 header img {
     width : 350px;
     height : 105px;
@@ -27,15 +31,12 @@ nav {
 
 nav ul {
     display: flex;
-  
 }
 
 nav li {
     list-style: none;
     margin-left: 30px;
 }
-
-/* Main */
 
 /* Banner */
 
@@ -84,7 +85,6 @@ nav li {
     display:flex;
     justify-content: space-around;
     width: 80%;
-    
 }
 
 #intro {
@@ -122,8 +122,57 @@ nav li {
 figure {
     color: grey;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 figcaption {
     font-weight: 300;
+}
+
+/* Footer */
+
+footer {
+    background-color: #5b359d;
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    padding : 10px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+#social-media {
+    opacity: 0.6;
+    text-align: center;
+}
+
+.fa-brands {
+    margin: 0 40px ;
+}
+
+#footer-main {
+    display:flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+h3 {
+    font-weight: normal;
+    opacity: 0.6;
+    margin-bottom: 5px;
+}
+
+.footer-content ul {
+    margin-top: 5px;
+}
+
+.footer-content li {
+    font-size: 14px;
+}
+
+.address{
+    list-style: none;
 }
